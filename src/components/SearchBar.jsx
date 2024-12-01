@@ -8,7 +8,7 @@ const SearchBar = () => {
     const [visilble, setVisilble] = useState(false)
     const location = useLocation()
     useEffect(() => {
-        if (location.pathname.includes('collection')) {
+        if (location.pathname.includes('allprod')) {
             setVisilble(true)
         } else {
             setVisilble(false);
